@@ -36,7 +36,7 @@ class TaskCategorySerializer(serializers.ModelSerializer):
         model = TaskCategory
         fields = ['id', 'name', 'user']
         
-#Task Serializer
+        
 class TaskSerializer(serializers.ModelSerializer):
     collaborators = serializers.PrimaryKeyRelatedField(
         many=True, queryset=CustomUser.objects.all(), required=False, allow_null=True
