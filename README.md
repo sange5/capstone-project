@@ -32,5 +32,5 @@ History Tracking: Keep a log of completed tasks to monitor progress over time.
 # Task Filters & Sorting:
 Filtering: Filter tasks by status, priority, and due date.
 
-Sorting: Sort tasks based on due date or priority level
+Sorting: Sort tasks based on due date or priority level.
 
