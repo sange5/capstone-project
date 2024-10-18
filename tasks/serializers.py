@@ -59,7 +59,7 @@ class TaskSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         collaborators = validated_data.pop('collaborators', [])
         task = super().create(validated_data)
-        task.collaborators.set(collaborators) # Assign collaborators 
+        task.collaborators.set(collaborators) 
 
     def update(self, instance, validated_data):
         collaborators = validated_data.pop('collaborators', [])
