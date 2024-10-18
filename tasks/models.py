@@ -4,7 +4,7 @@ from django.conf import settings
 from django.utils import timezone
 
 
-# Create your models here.
+# Create your 
 class CustomUserManager(BaseUserManager):
     def create_user(self, username, email, password=None, **extra_fields):
         if not email:
